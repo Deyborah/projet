@@ -1,7 +1,7 @@
 
 import './css/App.css';
 import logo from './auxcreations.png';
-import logofond from './img/tricot.png';
+
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavBar";
@@ -12,7 +12,7 @@ function App() {
     return (
             <div className="App">
 
-                <img src={logofond} className="App-logoFond" alt="logoFond" />
+               
 
             <Router>
 
@@ -24,6 +24,7 @@ function App() {
                     <Navbar />
 
                     <main className="App-content">
+
                         {/* contenu des pages ici si besoin */}
                     </main>
 
