@@ -1,0 +1,32 @@
+.navbarBottom {
+    height: 5vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right,rgba(202, 17, 239, 0.21)26%,rgba(202, 17, 239, 0.48)40%,rgba(202, 17, 239, 0.21)90%);
+    padding: 15px 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    font-family: 'Alex Brush';
+    width: 100%;
+    max-width: 1130px;
+    gap: 60px;
+}
+
+
+    .navbarBottom a {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        font-style: italic;
+        transition: 0.2s ease-in-out;
+        margin: 20px;
+    }
+
+        .navbarBottom a:hover {
+            color: #9b5de5;
+            transform: scale(1.05);
+        }
