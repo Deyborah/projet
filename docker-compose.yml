@@ -17,19 +17,20 @@ services:
       - mongo
     environment:
       - POSTGRES_HOST=postgres
-      - POSTGRES_DB=appdb
-      - POSTGRES_USER=appuser
-      - POSTGRES_PASSWORD=apppass
+      - POSTGRES_DB=dbauxcreationsfilees
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=12345678
       - MONGO_URL=mongodb://mongo:27017/appdb
 
   postgres:
     image: postgres:16
     environment:
-      POSTGRES_USER: appuser
-      POSTGRES_PASSWORD: apppass
-      POSTGRES_DB: appdb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 12345678
+      POSTGRES_DB: dbauxcreationsfilees
     volumes:
       - pgdata:/var/lib/postgresql/data
+      - ./backend/db/init.sql:/docker-entrypoint-initdb.d/init.sql
 
   mongo:
     image: mongo:7

@@ -4,7 +4,8 @@ import logofond from './img/tricot.png';
 
 const Home = () => {
 
-<header className="App-header">
+
+<main className="App-main">
 
     <img src={logo} className="App-logo" alt="logo" />
 
@@ -24,7 +25,7 @@ const Home = () => {
             </ul>
         </p>
     </div>
-</header>
+</main>
    </div >
   );
 }

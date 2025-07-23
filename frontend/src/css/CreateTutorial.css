@@ -1,0 +1,413 @@
+@media screen and (max-width: 1300px) {
+
+    .create-tutorial-container {
+        padding: 30px;
+        max-width: 1000px;
+        background-color: rgba(151,71,255,0.25);
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(128, 0, 255, 0.2);
+        font-family: 'Alex Brush';
+        width: 100%;
+        max-width: 81%;
+        height: 100vh;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .tutorial-input {
+        width: 80%;
+        font-size: 25px;
+        margin-bottom: 20px;
+        border: none;
+        background-color: transparent;
+        margin-left: -170px;
+        font-style: italic;
+        font-family: 'Alex Brush';
+    }
+        .tutorial-input::placeholder {
+            color: black;
+            opacity: 1;
+            font-family: 'Alex Brush';
+            font-size: 25px;
+            padding-inline-start: 2px;
+            letter-spacing: 2px;
+            text-decoration: underline;
+            text-decoration-thickness: 0.02rem;
+        }
+
+    .tutorial-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tutorial-photo-and-options {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: start;
+        margin: 10px;
+    }
+
+    .photo-upload {
+        display: flex;
+        border: 2px solid #c59ef3;
+        border-radius: 15px;
+        padding: 20px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        background-color: rgba(151,71,255,0.25);
+        align-items: center;
+        justify-content: center;
+        
+    }
+        .photo-upload label {
+            font-size: 25px;
+            cursor: pointer;
+        }
+    
+
+    .tutorial-options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 70%
+    }
+
+        .tutorial-options select {
+            padding: 5px 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgba(72, 4, 166, 0.4);
+            color: white;
+            font-style: italic;
+        }
+
+
+
+
+
+    .tutorial-text label {
+        display: block;
+        margin-top: -110px;
+        margin-bottom: 10px;
+        font-style: italic;
+        font-size: 25px;
+        text-decoration: underline;
+        text-decoration-thickness: 0.02rem;
+        margin-right: 500px;
+    }
+
+    .tutorial-text textarea {
+        width: 70%;
+        height: 400px;
+        margin-left: 80px;
+        border-radius: 15px;
+        padding: 10px;
+        border: 2px solid #c59ef3;
+        background-color: rgba(151,71,255,0.25);
+        font-style: italic;
+        resize: none;
+    }
+        .tutorial-text textarea::placeholder {
+            color: black;
+            opacity: 1;
+            font-family: 'Alex Brush';
+            font-size: 20px;
+            padding-inline-start: 2px;
+            letter-spacing: 2px;
+            text-decoration: underline;
+            text-decoration-thickness: 0.02rem;
+        }
+
+    .submit-btn {
+        margin-top: 20px;
+        background: linear-gradient(to right, rgba(107, 6, 248, 0.5), rgba(72, 4, 166, 0.8));
+        border: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+        color: white;
+        font-style: italic;
+        cursor: pointer;
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 1350px) and (max-width:2300px) {
+
+
+    .create-tutorial-container {
+        padding: 30px;
+        max-width: 1000px;
+        background-color: rgba(151,71,255,0.25);
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(128, 0, 255, 0.2);
+        font-family: 'Alex Brush';
+        width: 100%;
+        max-width: 81%;
+        height: 100vh;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+
+    .tutorial-input {
+        width: 80%;
+        font-size: 25px;
+        margin-bottom: 20px;
+        border: none;
+        background-color: transparent;
+        margin-left: -170px;
+        font-style: italic;
+        font-family: 'Alex Brush';
+    }
+
+        .tutorial-input::placeholder {
+            color: black;
+            opacity: 1;
+            font-family: 'Alex Brush';
+            font-size: 25px;
+            padding-inline-start: 2px;
+            letter-spacing: 2px;
+            text-decoration: underline;
+            text-decoration-thickness: 0.02rem;
+        }
+
+    .tutorial-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tutorial-photo-and-options {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: start;
+        margin: 10px;
+    }
+
+    .photo-upload {
+        display: flex;
+        border: 2px solid #c59ef3;
+        border-radius: 15px;
+        padding: 20px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        background-color: rgba(151,71,255,0.25);
+        align-items: center;
+        justify-content: center;
+    }
+
+        .photo-upload label {
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+
+    .tutorial-options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 70%
+    }
+
+        .tutorial-options select {
+            padding: 5px 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgba(72, 4, 166, 0.4);
+            color: white;
+            font-style: italic;
+        }
+
+
+
+
+
+    .tutorial-text label {
+        display: block;
+        margin-top: -110px;
+        margin-bottom: 10px;
+        font-style: italic;
+        font-size: 25px;
+        text-decoration: underline;
+        text-decoration-thickness: 0.02rem;
+        margin-right: 500px;
+    }
+
+    .tutorial-text textarea {
+        width: 70%;
+        height: 400px;
+        margin-left: 80px;
+        border-radius: 15px;
+        padding: 10px;
+        border: 2px solid #c59ef3;
+        background-color: rgba(151,71,255,0.25);
+        font-style: italic;
+        resize: none;
+    }
+
+        .tutorial-text textarea::placeholder {
+            color: black;
+            opacity: 1;
+            font-family: 'Alex Brush';
+            font-size: 20px;
+            padding-inline-start: 2px;
+            letter-spacing: 2px;
+            text-decoration: underline;
+            text-decoration-thickness: 0.02rem;
+        }
+
+    .submit-btn {
+        margin-top: 20px;
+        background: linear-gradient(to right, rgba(107, 6, 248, 0.5), rgba(72, 4, 166, 0.8));
+        border: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+        color: white;
+        font-style: italic;
+        cursor: pointer;
+    }
+}
+
+
+
+@media screen and (min-width:2300px) {
+
+
+    .create-tutorial-container {
+        padding: 30px;
+        max-width: 2000px;
+        background-color: rgba(151,71,255,0.25);
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(128, 0, 255, 0.2);
+        font-family: 'Alex Brush';
+        width: 100%;
+        max-width: 81%;
+        height: 100vh;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .tutorial-input {
+        width: 90%;
+        font-size: 45px;
+        margin-bottom: 20px;
+        border: none;
+        background-color: transparent;
+        margin-left: -170px;
+        font-style: italic;
+        font-family: 'Alex Brush';
+    }
+        .tutorial-input::placeholder {
+            color: black;
+            opacity: 1;
+            font-family: 'Alex Brush';
+            font-size: 35px;
+            padding-inline-start: 2px;
+            letter-spacing: 2px;
+            text-decoration: underline;
+            text-decoration-thickness: 0.02rem;
+        }
+
+    
+    .tutorial-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tutorial-photo-and-options {
+        display: flex;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: start;
+        margin: 20px;
+    }
+
+    .photo-upload {
+        border: 2px solid #c59ef3;
+        border-radius: 15px;
+        padding: 20px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        background-color: rgba(151,71,255,0.25);
+    }
+    .photo-upload label {
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .tutorial-options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 70%
+    }
+
+        .tutorial-options select {
+            padding: 5px 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: #c59ef3;
+            color: white;
+            font-style: italic;
+        }
+
+
+
+
+
+    .tutorial-text label {
+        display: block;
+        margin-top: -110px;
+        margin-bottom: 10px;
+        font-style: italic;
+        font-size: 35px;
+        text-decoration: underline;
+        text-decoration-thickness: 0.02rem;
+        margin-right: 1300px;
+    }
+
+    .tutorial-text textarea {
+        width: 80%;
+        height: 650px;
+        margin-left: 100px;
+        border-radius: 15px;
+        padding: 10px;
+        border: 2px solid #c59ef3;
+        background-color: rgba(151,71,255,0.25);
+        font-style: italic;
+        resize: none;
+    }
+        .tutorial-text textarea::placeholder {
+            color: black;
+            opacity: 1;
+            font-family: 'Alex Brush';
+            font-size: 30px;
+            padding-inline-start: 2px;
+            letter-spacing: 2px;
+            text-decoration: underline;
+            text-decoration-thickness: 0.02rem;
+        }
+    .submit-btn {
+        margin-top: 20px;
+        background-color: #a97fff;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+        color: white;
+        font-style: italic;
+        cursor: pointer;
+    }
+}
